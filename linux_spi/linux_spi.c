@@ -47,7 +47,8 @@ void SPI_init(const char * path, uint32_t spd)
         pabort("can't open device");
 
     int ret = 0;
-    mode8 = SPI_MODE_0;
+//    mode8 = SPI_MODE_0;
+    mode8 = SPI_MODE_2;
     bits = 8;
     speed = spd;
 

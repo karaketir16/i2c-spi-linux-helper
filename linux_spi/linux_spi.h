@@ -17,7 +17,7 @@
 
 #define ARRAY_SIZE(a) (sizeof(a) / sizeof((a)[0]))
 
-#define SPI_PATH "/dev/spidev3.0"
+#define SPI_PATH "/dev/spidev1.0"
 #define SPI_CLOCK_SPEED 1000000
 
 
